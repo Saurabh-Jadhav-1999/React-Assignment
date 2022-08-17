@@ -1,0 +1,22 @@
+.card{
+    display: flex;
+    box-shadow: 0 0 5px #888888;
+}
+
+.card-image{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+}
+
+.card-header{
+    padding-top: 22px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.user-details{
+    padding: 10px;
+    padding-bottom: 5px;
+    line-height: 1;
+}
