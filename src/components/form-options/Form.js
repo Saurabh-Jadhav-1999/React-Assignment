@@ -51,7 +51,7 @@ const Form = (props) => {
             </div>
             <div className="modal-user-email">
               <label htmlFor="email">Email: </label>
-              <input id="inputBox" type="text" name="email" onChange={onChangeHandler} defaultValue={`${user.email}`} required />
+              <input id="inputBox" type="email" name="email" onChange={onChangeHandler} defaultValue={`${user.email}`} required />
             </div>
             <div className="modal-user-phone">
               <label htmlFor="phone">Phone: </label>
